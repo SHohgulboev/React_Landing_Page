@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Home.css */
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f0f4f8;
+  }
+  
+  .home-content {
+    max-width: 50%;
+  }
+  
+  .home-content h1 {
+    font-size: 48px;
+    color: #333;
+  }
+  
+  .home-content p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    margin-top: 30px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .home-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
